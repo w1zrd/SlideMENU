@@ -45,8 +45,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="WxY-D2-CEh">
-                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="wY7-hL-FG6"/>
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="wY7-hL-FG6">
+                            <connections>
+                                <action selector="MenuButtonPressed:" destination="BYZ-38-t0r" id="rN8-WB-YLa"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="SlideMenu" destination="vcW-Yt-IqI" id="0eW-FI-Vmi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -59,7 +66,7 @@
                     <view key="view" contentMode="scaleToFill" id="bcw-Mv-LFW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.80327845651269958" green="0.55071086883631337" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="lua-IC-ysY"/>
                     </view>
                 </viewController>
